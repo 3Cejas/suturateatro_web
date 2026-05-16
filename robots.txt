@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Sitemap: https://suturateatro.es/sitemap.xml
+Disallow:
+
+Sitemap: https://sutura.ddns.net/web/sitemap_index.xml
