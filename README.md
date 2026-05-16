@@ -1,18 +1,31 @@
-# suturateatro_web
+# Sutura Company Web
 
-Sitio estatico de Sutura Teatro servido en:
+Proyecto reservado para replicar la web publica de la compania en este servidor.
 
-- https://sutura.ddns.net/web/
+## Objetivo
 
-## Estructura
+- Web publica rapida, editable y con buen SEO.
+- Tracking propio con Matomo.
+- Descargas servidas por Zipline o por Nginx con eventos de Matomo.
+- Panel interno para revisar visitas, descargas, SEO, errores 404 y rendimiento.
 
-- `index.html`: pagina principal.
-- `assets/`: estilos, JavaScript, tipografias e imagenes.
-- Carpetas por pagina: `compania/`, `proyectos/`, `contacto/`, etc.
-- `robots.txt` y `sitemap.xml`: archivos SEO basicos.
+## Pendiente
 
-## Despliegue
+Para replicar la web actual hace falta una de estas dos cosas:
 
-Nginx sirve `/web/` desde `/var/www/dashboard/web`. En este servidor esa ruta apunta a este repositorio:
+- URL publica de la web actual.
+- Export/backup de la web actual con HTML, CSS, imagenes y textos.
 
-`/home/trescejas/REPOS/suturateatro_web`
+Cuando este eso, el flujo recomendado es:
+
+1. Auditar estructura, paginas, imagenes, metadatos y enlaces actuales.
+2. Recrear la web como sitio estatico rapido.
+3. Anadir sitemap, robots.txt, Open Graph, JSON-LD y redirecciones.
+4. Insertar tracking Matomo.
+5. Publicar detras de Nginx y mantener el dashboard tecnico separado.
+
+La plantilla de tracking esta en:
+
+```bash
+/home/trescejas/REPOS/sutura-company-web/matomo-tracking-template.html
+```
