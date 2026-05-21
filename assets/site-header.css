@@ -1,0 +1,116 @@
+html,
+body.page-id-10,
+body.page-id-10 #page,
+body.page-id-10 .site,
+body.page-id-10 #colophon,
+body.page-id-10 .footer-width-fixer {
+  background: #000000 !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 {
+  position: relative;
+  min-height: min(620px, 72vh) !important;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0) 78%, #000000 100%),
+    linear-gradient(90deg, rgba(110, 8, 0, .92) 0%, rgba(58, 0, 0, .64) 28%, rgba(0, 0, 0, .98) 66%, #000000 100%) !important;
+  --padding-block-start: 0 !important;
+  --padding-block-end: 0 !important;
+  --padding-inline-start: 0 !important;
+  --padding-inline-end: 0 !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 75%, #000000 100%),
+    linear-gradient(90deg, rgba(110, 8, 0, .95) 0%, rgba(54, 0, 0, .62) 28%, rgba(0, 0, 0, 0) 58%);
+  pointer-events: none;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse at 78% 48%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .08) 42%, #000000 76%),
+    linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0) 74%, #000000 100%);
+  pointer-events: none;
+}
+
+body.page-id-10 .sutura-theatre-hero-photo {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 0;
+  width: min(68vw, 1080px);
+  height: 118%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: .74;
+  filter: saturate(.96) contrast(1.08);
+  transform: translateY(-50%);
+  -webkit-mask-image:
+    linear-gradient(90deg, transparent 0%, #000000 22%, #000000 82%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, #000000 16%, #000000 82%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(90deg, transparent 0%, #000000 22%, #000000 82%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, #000000 16%, #000000 82%, transparent 100%);
+  mask-composite: intersect;
+  pointer-events: none;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 > .e-con,
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-e0b8267,
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-521c538,
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-c733156 {
+  position: relative;
+  z-index: 1;
+  background: transparent !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-e0b8267,
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-521c538 {
+  width: 100% !important;
+  max-width: none !important;
+  --width: 100% !important;
+  --padding-block-start: 0 !important;
+  --padding-block-end: 0 !important;
+  --padding-inline-start: 0 !important;
+  --padding-inline-end: 0 !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-081f40b {
+  display: none !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-c733156 {
+  margin-left: clamp(44px, 8vw, 148px);
+  width: auto !important;
+  max-width: calc(100% - clamp(88px, 16vw, 296px)) !important;
+  padding: clamp(82px, 10vw, 140px) 0 !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-c733156 .elementor-heading-title {
+  color: #be1009 !important;
+  font-family: "Dahlia Bold", "Dahlia Regular", serif !important;
+  font-size: clamp(82px, 8.8vw, 150px) !important;
+  font-weight: 400 !important;
+  line-height: .92 !important;
+}
+
+@media (max-width: 720px) {
+  body.page-id-10 .elementor-element.elementor-element-92f5cc2 {
+    min-height: 520px !important;
+  }
+
+  body.page-id-10 .elementor-element.elementor-element-92f5cc2 .elementor-element-c733156 {
+    margin-left: 24px;
+    max-width: calc(100% - 48px) !important;
+  }
+}

@@ -1,0 +1,130 @@
+html,
+body {
+  background-color: #000000 !important;
+  color-scheme: dark;
+}
+
+body > #page,
+body .site,
+body .hfeed,
+body #colophon,
+body footer[role="contentinfo"],
+body .footer-width-fixer {
+  background-color: #000000 !important;
+}
+
+.sutura-language-switcher {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 8px;
+  background: rgba(8,8,8,.92);
+  box-shadow: 0 14px 38px rgba(0,0,0,.34);
+  color: #ffffff;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.sutura-language-switcher__label {
+  padding: 0 6px;
+  color: rgba(255,255,255,.72);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sutura-language-switcher__button {
+  position: relative;
+  min-width: 38px;
+  min-height: 34px;
+  padding: 6px 8px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.sutura-language-switcher__button::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 16px;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+
+.sutura-language-switcher__button[data-lang="es"]::before {
+  background: linear-gradient(
+    to bottom,
+    #aa151b 0 25%,
+    #f1bf00 25% 75%,
+    #aa151b 75% 100%
+  );
+}
+
+.sutura-language-switcher__button[data-lang="en"]::before {
+  background: #012169 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h60v30H0z'/%3E%3C/clipPath%3E%3Cpath fill='%23012169' d='M0 0h60v30H0z'/%3E%3Cg clip-path='url(%23a)'%3E%3Cpath stroke='%23ffffff' stroke-width='6' d='m0 0 60 30M60 0 0 30'/%3E%3Cpath stroke='%23C8102E' stroke-width='4' d='m0 0 60 30M60 0 0 30'/%3E%3Cpath stroke='%23ffffff' stroke-width='10' d='M30 0v30M0 15h60'/%3E%3Cpath stroke='%23C8102E' stroke-width='6' d='M30 0v30M0 15h60'/%3E%3C/g%3E%3C/svg%3E") center / cover no-repeat;
+}
+
+.sutura-language-switcher__button[data-lang="fr"]::before {
+  background: linear-gradient(
+    90deg,
+    #002395 0 33.33%,
+    #ffffff 33.33% 66.66%,
+    #ed2939 66.66% 100%
+  );
+}
+
+.sutura-language-switcher__button:hover,
+.sutura-language-switcher__button:focus {
+  border-color: #edbf39;
+  color: #edbf39;
+  outline: none;
+}
+
+.sutura-language-switcher__button[aria-pressed="true"] {
+  background: #edbf39;
+  border-color: #edbf39;
+  color: #080808;
+}
+
+#google_translate_element,
+.goog-te-banner-frame,
+.goog-te-gadget,
+body > .skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+@media (max-width: 640px) {
+  .sutura-language-switcher {
+    right: 12px;
+    bottom: 12px;
+    gap: 4px;
+    padding: 6px;
+  }
+
+  .sutura-language-switcher__label {
+    display: none;
+  }
+
+  .sutura-language-switcher__button {
+    min-width: 34px;
+    min-height: 32px;
+    padding: 6px;
+  }
+}

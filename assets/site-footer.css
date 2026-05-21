@@ -1,0 +1,279 @@
+.sutura-site-footer,
+.sutura-site-footer * {
+  box-sizing: border-box;
+}
+
+body.sutura-has-footer {
+  background-color: #000000 !important;
+  isolation: isolate;
+}
+
+body.sutura-has-footer::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 62vw 150vh at -20vw 48vh, rgba(190, 16, 9, .36) 0%, rgba(190, 16, 9, .22) 42%, rgba(190, 16, 9, .08) 66%, rgba(0, 0, 0, 0) 86%),
+    linear-gradient(90deg, rgba(190, 16, 9, .12) 0%, rgba(190, 16, 9, .045) 18%, rgba(0, 0, 0, 0) 46%);
+  mix-blend-mode: screen;
+}
+
+body.sutura-has-footer > #page {
+  background-color: #000000 !important;
+}
+
+body.sutura-has-footer .eu-header {
+  position: relative;
+  z-index: 3;
+}
+
+body.sutura-has-footer .sutura-language-switcher {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  left: auto;
+  width: auto;
+  max-width: calc(100vw - 36px);
+  z-index: 99999;
+}
+
+body.page-id-6 .elementor-element.elementor-element-5b63550,
+body.page-id-6 .elementor-element.elementor-element-df3ba0f {
+  display: none !important;
+}
+
+body.page-id-6 .elementor-element.elementor-element-b3e466f {
+  align-items: center !important;
+  --align-items: center !important;
+}
+
+body.page-id-6 .elementor-element.elementor-element-c8e4166.elementor-element {
+  align-self: center !important;
+  --align-self: center !important;
+  transform: translateY(clamp(-76px, -6vh, -34px));
+}
+
+body.page-id-6 .elementor-element.elementor-element-c8e4166 .elementor-heading-title {
+  line-height: .92 !important;
+}
+
+body.page-id-6 .elementor-element.elementor-element-da9bf59.elementor-element {
+  align-self: center !important;
+  --align-self: center !important;
+}
+
+@media (max-width: 767px) {
+  body.page-id-6 .elementor-element.elementor-element-c8e4166.elementor-element {
+    transform: none;
+  }
+}
+
+body.page-id-8 .elementor-element.elementor-element-3c13619,
+body.page-id-8 .elementor-element.elementor-element-1145e65 {
+  display: none !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-a0fd893 {
+  position: relative;
+  overflow: hidden;
+  background: transparent !important;
+  isolation: isolate;
+}
+
+body.page-id-8 .elementor-element.elementor-element-a0fd893::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.04) 0%, rgba(0,0,0,.58) 46%, #000000 82%),
+    linear-gradient(0deg, #000000 0%, rgba(0,0,0,.2) 46%, rgba(0,0,0,.86) 100%),
+    url("/web/wp-content/uploads/2024/12/14-e1733220676379-vector.svg") right 14vw top 42px / min(680px, 44vw) auto no-repeat;
+  filter: grayscale(1) contrast(1.05);
+  opacity: .72;
+}
+
+body.page-id-8 .elementor-element.elementor-element-c25d467,
+body.page-id-8 .elementor-element.elementor-element-9f6edff {
+  position: relative;
+  z-index: 1;
+}
+
+body.page-id-8 .elementor-element.elementor-element-c534be0 {
+  display: none !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-9f6edff,
+body.page-id-8 .elementor-element.elementor-element-edaea4d {
+  align-self: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-edaea4d {
+  --padding-block-start: 0 !important;
+  padding-block-start: 0 !important;
+  padding-top: 0 !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-ebcaccb > .elementor-widget-container {
+  padding-top: 0 !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-00875e7 .elementor-heading-title {
+  color: #be1009 !important;
+  font-family: "Dahlia Bold", "Dahlia Regular", serif !important;
+  font-size: clamp(82px, 8.8vw, 150px) !important;
+  font-weight: 400 !important;
+  line-height: .88 !important;
+}
+
+body.page-id-10 .elementor-element.elementor-element-c733156 .sutura-theatre-lead {
+  max-width: 820px;
+  margin: 28px 0 0 !important;
+  color: #edbf39 !important;
+  font-family: "Poppins", Arial, sans-serif !important;
+  font-size: clamp(18px, 2vw, 26px) !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;
+}
+
+@media (max-width: 920px) {
+  body.page-id-8 .elementor-element.elementor-element-a0fd893::before {
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.7) 58%, #000000 100%),
+      linear-gradient(0deg, #000000 0%, rgba(0,0,0,.16) 48%, rgba(0,0,0,.86) 100%),
+      url("/web/wp-content/uploads/2024/12/14-e1733220676379-vector.svg") right -72px top 68px / min(430px, 82vw) auto no-repeat;
+    opacity: .6;
+  }
+}
+
+.sutura-site-footer {
+  width: 100%;
+  margin: 0;
+  padding: clamp(44px, 5.4vw, 76px) 0 clamp(58px, 6.8vw, 96px);
+  background: transparent;
+  color: #ffffff;
+  border-top: 0;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.sutura-site-footer__inner {
+  width: min(1548px, calc(100% - 296px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(240px, 360px) minmax(330px, 420px);
+  justify-content: space-between;
+  gap: clamp(48px, 10vw, 180px);
+  align-items: start;
+}
+
+.sutura-site-footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sutura-site-footer h2 {
+  margin: 0 0 28px;
+  color: #edbf39;
+  font-size: clamp(26px, 2.1vw, 36px);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.sutura-site-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sutura-site-footer__nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin: 0 0 14px;
+  font-size: clamp(22px, 1.8vw, 30px);
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.sutura-site-footer__nav a:hover,
+.sutura-site-footer__nav a:focus,
+.sutura-site-footer__contact-link:hover,
+.sutura-site-footer__contact-link:focus {
+  color: #edbf39;
+}
+
+.sutura-site-footer__contact {
+  font-style: normal;
+}
+
+.sutura-site-footer__contact-link {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 26px;
+  align-items: center;
+  margin: 0 0 34px;
+  font-size: clamp(22px, 1.7vw, 30px);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.sutura-site-footer__icon {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sutura-site-footer__icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sutura-site-footer__icon--mail img {
+  height: 26px;
+}
+
+@media (max-width: 980px) {
+  .sutura-site-footer {
+    padding: 42px 0 64px;
+  }
+
+  .sutura-site-footer__inner {
+    width: min(100% - 44px, 620px);
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .sutura-site-footer h2 {
+    margin-bottom: 20px;
+  }
+
+  .sutura-site-footer__contact-link {
+    gap: 18px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sutura-site-footer__contact-link {
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 14px;
+    font-size: 20px;
+  }
+
+  .sutura-site-footer__icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .sutura-site-footer__nav a {
+    font-size: 22px;
+  }
+}

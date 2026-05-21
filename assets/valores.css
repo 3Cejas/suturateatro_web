@@ -1,0 +1,64 @@
+body.page-id-8 .elementor-element.elementor-element-a0fd893 {
+  position: relative;
+  overflow: hidden;
+  background: transparent !important;
+  isolation: isolate;
+}
+
+body.page-id-8 .elementor-element.elementor-element-a0fd893::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.04) 0%, rgba(0,0,0,.58) 46%, #000000 82%),
+    linear-gradient(0deg, #000000 0%, rgba(0,0,0,.2) 46%, rgba(0,0,0,.86) 100%),
+    url("/web/wp-content/uploads/2024/12/14-e1733220676379-vector.svg") right 14vw top 42px / min(680px, 44vw) auto no-repeat;
+  filter: grayscale(1) contrast(1.05);
+  opacity: .72;
+}
+
+body.page-id-8 .elementor-element.elementor-element-c25d467,
+body.page-id-8 .elementor-element.elementor-element-9f6edff {
+  position: relative;
+  z-index: 1;
+}
+
+body.page-id-8 .elementor-element.elementor-element-c534be0 {
+  display: none !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-9f6edff,
+body.page-id-8 .elementor-element.elementor-element-edaea4d {
+  align-self: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-edaea4d {
+  --padding-block-start: 0 !important;
+  padding-block-start: 0 !important;
+  padding-top: 0 !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-ebcaccb > .elementor-widget-container {
+  padding-top: 0 !important;
+}
+
+body.page-id-8 .elementor-element.elementor-element-00875e7 .elementor-heading-title {
+  color: #be1009 !important;
+  font-family: "Dahlia Bold", "Dahlia Regular", serif !important;
+  font-size: clamp(82px, 8.8vw, 150px) !important;
+  font-weight: 400 !important;
+  line-height: .88 !important;
+}
+
+@media (max-width: 920px) {
+  body.page-id-8 .elementor-element.elementor-element-a0fd893::before {
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.7) 58%, #000000 100%),
+      linear-gradient(0deg, #000000 0%, rgba(0,0,0,.16) 48%, rgba(0,0,0,.86) 100%),
+      url("/web/wp-content/uploads/2024/12/14-e1733220676379-vector.svg") right -72px top 68px / min(430px, 82vw) auto no-repeat;
+    opacity: .6;
+  }
+}
