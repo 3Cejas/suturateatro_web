@@ -14,13 +14,17 @@ body .footer-width-fixer {
 }
 
 .sutura-language-switcher {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 99999;
-  display: flex;
+  position: fixed !important;
+  top: auto !important;
+  right: 18px !important;
+  bottom: 18px !important;
+  left: auto !important;
+  z-index: 2147483647 !important;
+  display: flex !important;
   align-items: center;
   gap: 6px;
+  width: auto !important;
+  max-width: calc(100vw - 36px) !important;
   padding: 8px;
   border: 1px solid rgba(255,255,255,.18);
   border-radius: 8px;
@@ -28,6 +32,8 @@ body .footer-width-fixer {
   box-shadow: 0 14px 38px rgba(0,0,0,.34);
   color: #ffffff;
   font-family: "Poppins", Arial, sans-serif;
+  transform: none !important;
+  translate: none !important;
 }
 
 .sutura-language-switcher__label {
@@ -112,8 +118,14 @@ body {
 
 @media (max-width: 640px) {
   .sutura-language-switcher {
-    right: 12px;
-    bottom: 12px;
+    position: fixed !important;
+    top: auto !important;
+    right: max(12px, env(safe-area-inset-right)) !important;
+    bottom: max(12px, env(safe-area-inset-bottom)) !important;
+    left: auto !important;
+    width: auto !important;
+    max-width: calc(100vw - 24px) !important;
+    z-index: 2147483647 !important;
     gap: 4px;
     padding: 6px;
   }

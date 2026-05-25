@@ -1,0 +1,282 @@
+html,
+body.home.page-id-6 {
+  overflow-x: hidden;
+}
+
+body.home.page-id-6 #page,
+body.home.page-id-6 .site,
+body.home.page-id-6 .site-main,
+body.home.page-id-6 .page-content,
+body.home.page-id-6 .elementor {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  body.home.page-id-6 .eu-header {
+    position: relative;
+    z-index: 10;
+    background: transparent !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-366fa72 {
+    --min-height: auto !important;
+    min-height: 0 !important;
+    --padding-block-start: 0 !important;
+    --padding-block-end: 28px !important;
+    --padding-inline-start: 0 !important;
+    --padding-inline-end: 0 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-b3e466f {
+    --flex-direction: column !important;
+    --container-widget-width: 100% !important;
+    --container-widget-height: initial !important;
+    --container-widget-flex-grow: 0 !important;
+    --container-widget-align-self: stretch !important;
+    --gap: 22px 22px !important;
+    --padding-block-start: 18px !important;
+    --padding-block-end: 0 !important;
+    --padding-inline-start: 22px !important;
+    --padding-inline-end: 22px !important;
+    align-items: stretch !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-c8e4166,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-6f46728,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-1b48bfc,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-18476ca,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-97e5f42 {
+    --container-widget-width: 100% !important;
+    --width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-c8e4166 {
+    order: 1;
+    text-align: left !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-c8e4166 .elementor-heading-title {
+    font-size: clamp(44px, 18vw, 70px) !important;
+    line-height: .88 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 {
+    order: 2;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 .elementor-image-carousel-wrapper,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 .swiper,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 .swiper-wrapper,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 .swiper-slide,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 figure {
+    width: 100% !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-da9bf59 .swiper-slide-image {
+    display: block;
+    width: 100% !important;
+    aspect-ratio: 4 / 3;
+    height: auto !important;
+    max-height: 360px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-53d9578 {
+    --flex-direction: column !important;
+    --gap: 24px 24px !important;
+    --padding-block-start: 16px !important;
+    --padding-block-end: 42px !important;
+    --padding-inline-start: 22px !important;
+    --padding-inline-end: 22px !important;
+    align-items: stretch !important;
+    flex-direction: column !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-6f46728 img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-18476ca {
+    font-size: .98rem !important;
+    line-height: 1.56 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-18476ca p {
+    margin: 0 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-de17d9d {
+    --min-height: auto !important;
+    min-height: 0 !important;
+    --padding-block-start: 44px !important;
+    --padding-block-end: 40px !important;
+    background-position: center center !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-de17d9d::before {
+    background: rgba(0, 0, 0, .22);
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-f28bd16 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-4884f43 .elementor-heading-title {
+    font-size: clamp(30px, 10vw, 42px) !important;
+    line-height: 1 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-8c7c994 {
+    --flex-direction: column !important;
+    --gap: 28px 28px !important;
+    --padding-block-start: 32px !important;
+    --padding-block-end: 0 !important;
+    --padding-inline-start: 24px !important;
+    --padding-inline-end: 24px !important;
+    align-items: stretch !important;
+    flex-direction: column !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-acddf97,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-15f9b13 {
+    --width: 100% !important;
+    --gap: 26px 26px !important;
+    width: 100% !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-074fcfe,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-04816ab,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-d81bdb9,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-3587a36,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-3464d0f,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-48cd711 {
+    --gap: 12px 12px !important;
+    align-items: flex-start !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-3d6d68d,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-913f0f7,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-c092317,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-727106a,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-0d12452,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-1ee4c3f {
+    --container-widget-width: 30px !important;
+    width: 30px !important;
+    max-width: 30px !important;
+    flex: 0 0 30px !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-d922921,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-4ec99bb,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-82313f3,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-6ebb7e5,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-f8fcb18,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-0bd006b {
+    --width: calc(100% - 42px) !important;
+    width: calc(100% - 42px) !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-d08f645 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-f155225 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-99031bb .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-e4f487f .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-69ca6b3 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-a054296 .elementor-heading-title {
+    font-size: 1rem !important;
+    line-height: 1.15 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-b216843 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-5de529c .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-0027a83 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-a9270a4 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-ae690c7 .elementor-heading-title,
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-bc04082 .elementor-heading-title {
+    font-size: .9rem !important;
+    line-height: 1.5 !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-76070e6 {
+    --min-height: 640px !important;
+    min-height: 640px !important;
+    --padding-block-start: 0 !important;
+    --padding-block-end: 0 !important;
+    --padding-inline-start: 22px !important;
+    --padding-inline-end: 22px !important;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    background-position: 36% center !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-dc2a4aa {
+    --width: 100% !important;
+    --gap: 20px 20px !important;
+    --margin-block-start: 0 !important;
+    --padding-block-end: 48px !important;
+    --padding-inline-start: 0 !important;
+    width: 100% !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-97e5f42 {
+    font-size: .92rem !important;
+    line-height: 1.5 !important;
+  }
+
+  body.home.page-id-6 .sutura-site-footer {
+    padding: 42px 0 56px;
+  }
+
+  body.home.page-id-6 .sutura-site-footer__inner {
+    width: min(100% - 44px, 460px);
+    gap: 38px;
+  }
+
+  body.home.page-id-6 .sutura-site-footer h2 {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+
+  body.home.page-id-6 .sutura-site-footer__nav a,
+  body.home.page-id-6 .sutura-site-footer__contact-link {
+    font-size: 18px;
+  }
+
+  body.home.page-id-6 .sutura-site-footer__contact-link {
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-b3e466f {
+    --padding-inline-start: 14px !important;
+    --padding-inline-end: 14px !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-c8e4166 .elementor-heading-title {
+    font-size: clamp(38px, 20vw, 54px) !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-53d9578 {
+    --padding-inline-start: 16px !important;
+    --padding-inline-end: 16px !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-8c7c994 {
+    --padding-inline-start: 18px !important;
+    --padding-inline-end: 16px !important;
+  }
+
+  body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-76070e6 {
+    --padding-inline-start: 18px !important;
+    --padding-inline-end: 18px !important;
+  }
+}
