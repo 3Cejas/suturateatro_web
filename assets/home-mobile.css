@@ -19,6 +19,22 @@ body.home.page-id-6 .elementor {
     background: transparent !important;
   }
 
+  body.home.page-id-6 .eu-header.is-nav-open {
+    background: transparent !important;
+  }
+
+  body.home.page-id-6 .eu-header.is-nav-open::before {
+    inset: -18px 0 -140px 0 !important;
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, .34) 0%,
+        rgba(0, 0, 0, .22) 52%,
+        rgba(0, 0, 0, .06) 82%,
+        rgba(0, 0, 0, 0) 100%
+      ) !important;
+  }
+
   body.home.page-id-6 .elementor-6 .elementor-element.elementor-element-366fa72 {
     --min-height: auto !important;
     min-height: 0 !important;

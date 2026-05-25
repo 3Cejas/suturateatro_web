@@ -20,13 +20,38 @@ body.sutura-has-footer::before {
   mix-blend-mode: screen;
 }
 
+body.sutura-has-footer::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2147483000;
+  height: min(520px, 78vh);
+  pointer-events: none;
+  opacity: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, .72) 0%,
+      rgba(0, 0, 0, .58) 34%,
+      rgba(0, 0, 0, .26) 72%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  transition: opacity .18s ease;
+}
+
+body.sutura-has-footer.is-sutura-nav-open::after {
+  opacity: 1;
+}
+
 body.sutura-has-footer > #page {
   background-color: #000000 !important;
 }
 
 body.sutura-has-footer .eu-header {
   position: relative;
-  z-index: 3;
+  z-index: 2147483100;
 }
 
 body.sutura-has-footer .sutura-language-switcher {
@@ -56,6 +81,7 @@ body.sutura-has-footer .sutura-language-switcher {
 @media (max-width: 820px) {
   body.sutura-has-footer .eu-header {
     position: relative !important;
+    z-index: 2147483100 !important;
     display: grid !important;
     grid-template-columns: minmax(0, 1fr) auto !important;
     align-items: center !important;
@@ -83,8 +109,19 @@ body.sutura-has-footer .sutura-language-switcher {
   }
 
   body.sutura-has-footer .eu-header.is-nav-open {
+    background: transparent !important;
+  }
+
+  body.sutura-has-footer .eu-header.is-nav-open::before {
+    inset: -18px 0 -140px 0 !important;
     background:
-      linear-gradient(180deg, rgba(0, 0, 0, .78) 0%, rgba(0, 0, 0, .62) 100%) !important;
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, .34) 0%,
+        rgba(0, 0, 0, .22) 52%,
+        rgba(0, 0, 0, .06) 82%,
+        rgba(0, 0, 0, 0) 100%
+      ) !important;
   }
 
   body.sutura-has-footer .eu-logo {

@@ -213,6 +213,7 @@
 
     function setOpen(isOpen) {
       header.classList.toggle("is-nav-open", isOpen);
+      document.body.classList.toggle("is-sutura-nav-open", isOpen);
       toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
       toggle.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
       if (!isOpen) {
